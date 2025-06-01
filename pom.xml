@@ -9,6 +9,9 @@
   <packaging>jar</packaging>
   <dependencies>
     <dependency>
+             	    <groupId>com.github.julianbenz</groupId>
+	    <artifactId>minecraft_plugin_smp</artifactId>
+	    <version>Tag</version>
       <groupId>io.papermc.paper</groupId>
       <artifactId>paper-api</artifactId>
       <version>1.21.5-R0.1-SNAPSHOT</version>
