@@ -1,0 +1,31 @@
+name: SMPPlus
+main: dev.julian.smpplus.SMPPlus
+version: 1.0
+api-version: 1.21
+author: Julian
+description: Economy, Gruppen, Scoreboard-Leaderboard und animierter Server-Titel in einem.
+
+commands:
+  balance:
+    description: Zeigt dein Guthaben
+  pay:
+    description: Zahle einem anderen Spieler Geld
+    usage: /pay <spieler> <betrag>
+  eco:
+    description: Admin-Befehl fuer Kontoverwaltung
+    usage: /eco <add|set|remove> <spieler> <betrag>
+    permission: smpplus.admin
+  sellhand:
+    description: Verkaufe das Item in deiner Hand
+  creategroup:
+    description: Erstelle eine Gruppe
+    usage: /creategroup <name>
+  joingroup:
+    description: Trete einer Gruppe bei
+    usage: /joingroup <name>
+  leavegroup:
+    description: Verlasse deine aktuelle Gruppe
+
+permissions:
+  smpplus.admin:
+    default: op
